@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div href="Index.html" class="navn">Inunnaq Ingemann</div>
+        <!-- Burger-menu knap -->
+        <div class="burger-menu" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-bar" id="nav-bar">
+            <ul>
+                <li><a href="Index.html" class="active">Forside</a></li>
+                <li><a href="projekter.html">Mine Projekter</a></li>
+                <li><a href="om-mig.htm">Om mig</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact">
+            <h1>Kontakt Mig</h1>
+            <p>Jeg vil gerne høre fra dig! Send en besked via formularen nedenfor, eller brug mine kontaktoplysninger.</p>
+            
+            <div class="contact-content">
+                <!-- Kontaktinfo -->
+                <div class="contact-info">
+                    <h3>Mine Oplysninger</h3>
+                    <p><strong>Email:</strong> <a href="cph-ii39@cphbusiness.dk">cph-ii39@cphbusiness.dk</a></p>
+                    <p><strong>Telefon:</strong> +45 29 11 05 73</p>
+                    <p><strong>Adresse:</strong> buddingevej 88, 2800 Kongens Lyngby</p>
+                </div>
+
+                <!-- Kontaktformular -->
+                <div class="contact-form">
+                    <h3>Send en Besked</h3>
+                    <form action="cph-ii39@cphbusiness.dk" method="post">
+                        <label for="name">Inunnaq Ingemann</label>
+                        <input type="text" id="name" name="name" placeholder="Skriv din navn" required>
+
+                        <label for="email">cph-ii39@cphbusiness.dk</label>
+                        <input type="email" id="email" name="email" placeholder="Din e-mail" required>
+
+                        <label for="message">Besked</label>
+                        <textarea id="message" name="message" placeholder="Din besked..." rows="5" required></textarea>
+
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>Om Mig</h3>
+                <p>Jeg studier som multimediedesigner, og jeg elsker at kombinere kreativitet og teknologi for at skabe digitale oplevelser.</p>
+            </div>
+            <div class="footer-social">
+                <h3>Følg Mig</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="https://www.facebook.com/inunnaq.ingemann/" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/inunnaqingemann/" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Kontakt</h3>
+                <p>E-mail: <a href="cph-ii39@cphbusiness.dk">cph-ii39@cphbusiness.dk</a></p>
+                <p>Telefon: +45 29 11 05 73</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Inunnaq Ingemann. Alle rettigheder forbeholdes.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
